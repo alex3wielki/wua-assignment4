@@ -1,0 +1,38 @@
+header {
+  display: flex;
+  width: 80%;
+  margin: auto;
+
+  $width: 10%;
+  img {
+    width: $width;
+  }
+  nav {
+    width: 100%-$width;
+    ul {
+      background: white;
+      li {
+        display: inline-block;
+        $padding: 0.5rem;
+        a {
+          color: white;
+          background: #004b87;
+          padding: $padding;
+          border-radius: 0.3rem;
+          text-decoration: none;
+          transition: 0.5s;
+        }
+        a:hover {
+          padding: $padding * 2;
+        }
+      }
+    }
+  }
+}
+main{
+  font-family: 'Gugi';
+  text-align: center;
+}
+footer{
+  
+}
